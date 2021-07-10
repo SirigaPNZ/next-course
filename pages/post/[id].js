@@ -9,7 +9,7 @@ export default function Post({ post }){
             <h1>{post.title}</h1>
             <hr />
             <p>{post.body}</p>
-            <Link href={'/posts'}><a>Back to all Posts</a></Link>
+            <Link href={'/posts'}><a>Back to all Posts PC</a></Link>
         </MainLayout>
     )
 }
